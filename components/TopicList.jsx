@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "";
+"use client" ;
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import RemoveBtn from "./RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
