@@ -1,5 +1,5 @@
 
-
+"use client" ;
 import TopicList from "@/components/TopicList";
 
 

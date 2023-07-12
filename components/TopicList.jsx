@@ -1,4 +1,4 @@
-"use client" ;
+
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import RemoveBtn from "./RemoveBtn";
@@ -10,7 +10,7 @@ const TopicList = () => {
   useEffect(() => {
     const getTopics = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/topics", {
+        const res = await fetch(process.env.NEXT_PUBLIC_API, {
           cache: "no-store",
         });
         if (!res.ok) {
