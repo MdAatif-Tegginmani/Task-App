@@ -10,7 +10,7 @@ const TopicList = () => {
   useEffect(() => {
     const getTopics = async () => {
       try {
-        const res = await fetch(process.env.NEXT_PUBLIC_API, {
+        const res = await fetch(process.env.NEXT_PUBLIC_API_URL, {
           cache: "no-store",
         });
         if (!res.ok) {
