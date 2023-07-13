@@ -9,7 +9,7 @@ const RemoveBtn = ({id}) => {
     const confirmed = confirm('Are you sure ?')
 
     if(confirmed){
-    const res = await fetch(process.env.NEXT_PUBLIC_API_URL`?id=${id}` ,{
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/?id=${id}` ,{
         method:"DELETE",
       })
 
