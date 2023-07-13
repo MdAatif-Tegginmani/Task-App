@@ -52,9 +52,9 @@ return (
       type="text"
       placeholder="Task Description"
     />
-    <button type="submit" className="bg-green-600 text-white py-3 px-6 w-fit">
+    <butto type="submit" className="bg-green-600 text-white py-3 px-6 w-fit">
       Add Task
-    </button>
+    </butto >
   </form>
 );
 }
